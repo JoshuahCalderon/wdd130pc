@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Shadows+Into+Light&display=swap');
+
 #content { 
     max-width: 1600px;
     margin: 0 auto;
@@ -5,6 +7,12 @@
 
 .logo {
     text-align: center; width: 80px;
+    padding: 10px;
+}
+
+#logo_link {
+    padding-top: 5px;
+
 }
 
 .icon {
@@ -13,6 +21,8 @@
 
 .nav {
     text-align: center;
+    font-family: shadows into light ,sans-serif, arial;
+    font-size: 30px;
 }
 
 #hero-img {
@@ -21,10 +31,14 @@
 
 #hero-msg {
     text-align: center;
+    font-family: shadows into light ,sans-serif, arial;
+    font-size: 40px;
 }
 
 .button-box {
     text-align: center;
+    font-size: 22px;
+    font-family: roboto slab, sans-serif, arial;
 }
 
 .home-grid {
@@ -33,6 +47,8 @@
 
 .home-title {
     color: white;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
@@ -41,35 +57,74 @@ h4 {
 
 #background {
     height: 725px; background-color: #275b3b;
+    margin-bottom: 100px;
 }
 
 body {
     background-color: #15300d;
+    font-family: roboto slab, sans-serif, arial;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+main section img {
+    box-sizing: border-box;
 }
 
 header {
     background-color: #003d7a;
 }
+
 nav a {
     color: white; text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover {
     background-color: #E07B29; 
 }
+
 .book, .join{
     background-color: #a77437; color: white; text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
+
+.card-img {
+    border: 10px solid #E07B29;
+}
+
 .book:hover, .join:hover {
     background-color: #E07B29;
 }
 
-.msg { background-color: #a77437;
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.msg { 
+    background-color: #a77437;
+    line-height: 1.5em;
+    padding: 35px;
+    margin-top: 200px;
 
 }
 
 footer {
     background-color: #275b3b; color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
+footer .social img{
+    padding-top: 15px;
 }
 
 footer a {
@@ -90,4 +145,5 @@ footer p {
 
 .msg p {
     color: white;
+    font-size: .8em;
 }
