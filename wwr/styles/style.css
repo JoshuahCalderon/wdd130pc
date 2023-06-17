@@ -32,7 +32,7 @@ nav {
 
 .nav {
     text-align: center;
-    font-family: shadows into light ,sans-serif, arial;
+    font-family: shadows into light, sans-serif, arial;
     font-size: 30px;
 }
 
@@ -217,6 +217,71 @@ footer p {
 
 /*Rivers*/
 
+.riverinfo {
+    font-family:  roboto slab, sans-serif, arial;
+    color: white;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    background-color: #275b3b;
+    padding: 20px;
+}
+
+.riversbanner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+    background-color: #275b3b;
+}
+
+.rivers-title {
+    z-index: 2;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    font-family: shadows into light;
+    color: white;
+}
+
+.wideriver {
+    width: 100%;
+    grid-column: 1/4;
+    grid-row: 1/3;
+    margin-bottom: 300px;
+    border-width: 10px;
+    border-color: #a77437;
+    border-style: groove;
+}
+
+.riverh2s {
+    color: white;
+    font-family: shadows into light;
+    text-align: center;
+}
+
+.salmonriver {
+    width: 100%;
+    margin-top: 300px;
+    border-width: 10px;
+    border-color: #a77437;
+    border-style: groove;
+}
+
+.graycanyon {
+    width: 100%;
+    margin-top: 300px;
+    border-width: 10px;
+    border-color: #a77437;
+    border-style: groove;
+}
+
+.grandcanyon {
+    width: 100%;
+    margin-top: 300px;
+    border-width: 10px;
+    border-color: #a77437;
+    border-style: groove;
+}
 
 
 @media screen and (max-width:900px) {
