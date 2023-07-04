@@ -1,0 +1,41 @@
+body {
+    background-color: green;
+}
+
+#card {
+    width: 470px;
+    justify-self: center;
+    margin-top: 10%;
+    height: 235px;
+    background-color: white;
+
+}
+
+.text {
+    text-align: center;
+}
+
+h1 {
+    font-size: 1em;
+    text-decoration-line: underline;
+}
+
+h4 {
+    font-size: .60em;
+}
+
+p {
+    font-size: .5em;
+    text-overflow: clip;
+}
+
+main {
+    display: grid;
+}
+
+.picture {
+    width: 200px;
+    height: 235px;
+    float: left;
+}
+
