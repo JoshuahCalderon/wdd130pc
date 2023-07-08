@@ -150,19 +150,20 @@ nav a:hover {
     border-style: groove;
 }
 
-.choose-theme {
+#choose-theme {
     font-family: helvetica, arial; 
     font-size: 1.7em;
     text-align: center;
     color: white;
+    margin-top: -2px;
 }
 
-.plan-event {
+#plan-event {
     font-family: helvetica, arial; 
     font-size: 1.7em;
     text-align: center;
     color: white;
-
+    margin-top: 10px;
 }
 
 .button1:hover {
@@ -224,15 +225,27 @@ footer p {
     z-index: -1;
 }
 
+h1{
+    text-align: center;
+    font-family: satisfy, helvetica;
+    color: #43A1D5;
+}
+
+.disc{
+    font-family: helvetica, arial;
+    font-size: 1.5em;
+    color: #ffb6c1;
+}
+
 * {box-sizing: border-box}
 .mySlides1, .mySlides2 {display: none}
 img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 1600px;
   position: relative;
-  margin: auto;
+  margin-top: 300px;
 }
 
 /* Next & previous buttons */
