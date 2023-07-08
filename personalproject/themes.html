@@ -25,18 +25,63 @@
             </div>
         </div>
         <main>
-            <div class="themes">
-                <div class="themesbox">
-                    <img class="themes-img" src="images/boomboxcake.jpg" alt="boombox shaped cake">
-                    <h1 class="home-title">Choose Your Theme!</h1>
-                    <p class="themes-msg">
-                        Ever wanted your birthday cake to look like a boombox? 
-                        No matter what you’ve wanted your cake to look like we 
-                        make it our priority that it not only looks how you want 
-                        it but tastes great too.
-                    </p>
-                </div>
+                        <p>Slideshow 1:</p>
+            <div class="slideshow-container">
+            <div class="mySlides1">
+                <img src="images/boomboxcake.jpg" style="width:100%">
             </div>
+
+            <div class="mySlides1">
+                <img src="images/wedcake.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides1">
+                <img src="images/jastable.jpg" style="width:100%">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+            </div>
+
+            <p>Slideshow 2:</p>
+            <div class="slideshow-container">
+            <div class="mySlides2">
+                <img src="images/carmelapples.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides2">
+                <img src="images/fruitsclose.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides2">
+                <img src="images/emps1.jpg" style="width:100%">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+            </div>
+
+            <script>
+            let slideIndex = [1,1];
+            let slideId = ["mySlides1", "mySlides2"]
+            showSlides(1, 0);
+            showSlides(1, 1);
+
+            function plusSlides(n, no) {
+            showSlides(slideIndex[no] += n, no);
+            }
+
+            function showSlides(n, no) {
+            let i;
+            let x = document.getElementsByClassName(slideId[no]);
+            if (n > x.length) {slideIndex[no] = 1}    
+            if (n < 1) {slideIndex[no] = x.length}
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+            }
+            x[slideIndex[no]-1].style.display = "block";  
+            }
+            </script>
         </main>
 
         <footer>
