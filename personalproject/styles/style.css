@@ -276,6 +276,10 @@ img {vertical-align: middle;}
   color: black;
 }
 
+main img {
+  width: 100%;
+}
+
 /* Events Page */
 
 .row {
